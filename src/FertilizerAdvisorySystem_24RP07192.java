@@ -61,12 +61,12 @@ public class FertilizerAdvisorySystem_24RP07192 {
 
     public static void main(String[] args) {
         SoilAnalysis[] testSamples = {
-            new SoilAnalysis("F001", "Kirehe", 50.0, 75.0, 99.0, "Maize"),
-            new SoilAnalysis("F002", "Bugesera", 60.0, 15.0, 80.0, "Rice"),
-            new SoilAnalysis("F003", "Nyagatare", 110.0, 50.0, 30.0, "Beans"),
-            new SoilAnalysis("F004_ERROR", "Rwamagana", 45.0, 70.0, -5.0, "Sorghum"),
-            new SoilAnalysis("F005", "Musanze", 10.0, 12.0, 18.0, "Irish Potatoes"),
-            new SoilAnalysis("F006", "Huye", 150.0, 120.0, 105.0, "Coffee")
+            new SoilAnalysis("F001", "Kirehe", 50.0, 70.0, 80.0, "Maize"),
+            new SoilAnalysis("F002", "Bugesera", 10.0, 45.0, 60.0, "Rice"),
+            new SoilAnalysis("F003", "Nyagatare", 110.0, 90.0, 85.0, "Beans"),
+            new SoilAnalysis("F004_ERROR", "Gatsibo", -5, 40.0, 60.0, "Maiz"),
+
+            new SoilAnalysis("F006", "Huye", 15.0, 15.0, 18.0, "RICE")
         };
 
         processSamples(testSamples);
